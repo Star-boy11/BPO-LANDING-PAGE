@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon-32x32.png" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css"/>
+    <script src="index.js" defer></script>
+    <title>NP Enterprise</title>
+  </head>
+  <body>
+    <!-- <header-nav and navbar> -->
+        <ul class="nav justify-content-end bg-dark">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">
+            <i class="fa-solid fa-phone-flip" style="color: orangered;"></i> Call us: +91-7038216156 </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">
+            <i class="fa-solid fa-envelope"  style="color: orangered;"></i> support@npenterprises.org </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">
+            <i class="fa-regular fa-clock" style="color: orangered;"></i> Working Hours: 8am - 6pm </a>
+          </li>
+        </ul>
+        <nav class="navbar">
+            <!-- <div class="container"> -->
+              <a class="navbar-brand" href="#">
+                <img class="p-2" src="NP-Entrprises_FInal-Logo.png" alt="Enterprise Logo" width="230px" height="85">
+              </a>
+              <nav class="navbar navbar-expand-sm">
+                <div class="container-fluid">
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav listitem">
+                      <li class="nav-item">
+                        <a class="nav-link active" style="color: orangered;" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          About Us
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About Us</a></li>
+                          <li><a class="dropdown-item" href="#">Team</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Services
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">BPO (CUSTOMER SUPPORT)</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Our Clients</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                      </li>
+                  <div class="text-right">
+                    <button type="button" class="btn nav-button btn-primary">APPOINTMENT</button>
+                  </div>
+                </div>
+              </nav>
+            <!-- </div> -->
+          </nav>
+      <!-- <Carousel -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active position-relative">
+              <img src="image2.jpg" class="d-block w-100" alt="image">
+              <div class="carousel-caption text-start position-absolute top-0 start-0 p-4" style="margin-top: 8%;">
+                <h2 class="fw-lighter" style="animation: fadeIn 5s; @keyframes fadeIn {
+                  0% { opacity: 0; }
+                  100% { opacity: 1; }
+                }
+                ">Take Control of Your Business with</h2>
+                <h1 style="font-weight: 900; font-size: 3.5rem;">Our World-Class Services.</h1>
+                <button type="button" class="btn btn-light btn-lg text-primary p-3 fw-lighter font-monospace">More About Us</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="image1.jpg" class="d-block w-100" alt="image">
+            </div>
+          </div>
+          <button class="carousel-control-prev mb-5 pb-4" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next mb-5 pb-4" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      <!-- <WELCOME SECTION> -->
+      <div class="container1">
+        <h3> WELCOME TO NP Enterprise </h3>
+        <hr class="rule bg-danger">
+      </div> 
+
+    <!-- List group -->
+      <div class="row container-fluid">
+        <div class="list-group listgroup">
+          <button type="button" class="list-group-item list-group-item-action lg1" onclick="myFunction2()">
+          <a href="#ABOUT US" class="text-decoration-none text-dark"><i class="fa-solid fa-address-card"></i> &nbsp;ABOUT US
+          </a></button>
+          <button type="button" class="list-group-item list-group-item-action lg1" onclick="myFunction()">
+            <a href="#OUR SERVICES" class="text-decoration-none text-dark"><i class="fa-solid fa-hand-holding-heart justify-content-start"></i> &nbsp;OUR SERVICES
+          </a></button>
+          <button type="button" class="list-group-item list-group-item-action lg1">
+          <a href="#MISSION" class="text-decoration-none text-dark" onclick="myFunction()"><i class="fa-regular fa-eye"></i> &nbsp;MISSION
+          </a></button>
+          <button type="button" class="list-group-item list-group-item-action lg1">
+          <a href="#VISION" class="text-decoration-none text-dark" onclick="myFunction()"><i class="fa-sharp fa-solid fa-rocket"></i> &nbsp;VISION
+          </a></button>
+        </div>
+      
+            <!-- 1 -->
+            <div class="card mb-3 " style="width: 70%; display: block; font-weight: bold; margin-top: 4px;" id="mycard1">
+              <div class="row row-cols-4">
+                <div class="col-md-4 p-2">
+                  <img src="bpo1.gif" class="img-fluid" style="border: 2px solid indigo;" alt="image">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"><i class="fa-regular fa-user" id="ABOUT US" style="color: orangered"></i> ABOUT US</h5>
+                    <p class="card-text">We, NP Enterprises at Nagpur, Maharashtra, are one of the leading BPOs, offering ultimate solutions to our the customers. We hold expertise in designing custom processes and achieving excellent outcomes for clients. We are committed to achieve the goal of excellence through accelerating the processes and magnifying customer satisfaction.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="card mb-3 " style="width: 65%; display: none; font-weight: bold; margin-top: 4px; position: absolute; left: 24rem; z-index: -1;" id="mycard2">
+              <div class="row row-cols-4">
+                <div class="col-md-4 p-2">
+                  <img src="2.jpg" class="img-fluid" style="border: 2px solid indigo;" alt="image">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"><i class="fa-regular fa-user" id="OUR SERVICES" style="color: orangered"></i>OUR SERVICES</h5>
+                    <p class="card-text">Our outbound services will increase lead conversion with our dedicated team of professional tele-callers utilizing their expertise to drive your prospects into customers and surpass key performance inductors to ensure success.
+                      Grow your business with our quality services.
+                      Lead Generation</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="card mb-3 p-5" style="width: 70%; display: none; font-weight: bold; margin-top: 4px; position: absolute; left: 23rem; z-index: -2;">
+              <div class="row g-0 row-cols-4">
+                <div class="col-md-4 p-2">
+                  <img src="3.png" class="img-fluid" style="border: 2px solid indigo;" alt="image">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"><i class="fa-regular fa-user" id="MISSION" style="color: orangered"></i>MISSION</h5>
+                    <p class="card-text">To provide innovative, satisfactory & consistently superior services to our clients through value creation at each stage.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="card mb-3 p-3" style="width: 70%; display: none; font-weight: bold; margin-top: 4px; position: absolute; left: 23rem; z-index: -3;">
+              <div class="row g-0 row-cols-4">
+                <div class="col-md-4 p-2">
+                  <img src="4.png" class="img-fluid" style="border: 2px solid indigo;" alt="image">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"><i class="fa-regular fa-user" id="VISION" style="color: orangered"></i>VISION</h5>
+                    <p class="card-text">As a leading BPO service provider, we'll lead by achieving prominent growth by creating a fulfilling workplace for our employees built on trust, mutual respect and appreciation of their diversity. Also, delivering quality services with utmost satisfaction to our clients and secure the honour of the larger community through our continuous pursuit of excellence.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>   
+
+      <div class="container-fluid text-center mt-5 mb-5" style="font-weight: bold; color:white">
+        <div class="row">
+          <div class="col p-5" style="background-color: #135f9b;">
+            <h2>25</h2>
+            <p style="font-size: 1.3rem;">TELECALLERS</p>       
+          </div>
+          <div class="col p-5" style="background-color: #e74020;">
+            <h2>30</h2>
+            <p style="font-size: 1.3rem;">STAFF</p>       
+          </div>
+          <div class="col p-5" style="background-color: #135f9b;">
+            <h2>15</h2>
+            <p style="font-size: 1.3rem;">HAPPY CLIENTS</p>       
+          </div>
+          <div class="col p-5" style="background-color: #e74020;">
+            <h2>4</h2>
+            <p style="font-size: 1.3rem;">EXPERIENCE</p>       
+          </div>
+        </div>
+
+       <!-- We love our work -->
+      <div class="container1">
+        <h3 class="text-dark"> WE LOVE OUR WORK</h3>
+        <hr class="rule">
+      </div> 
+
+        <div class="row row-cols-1 row-cols-md-4 g-4 text-dark">
+          <div class="col">
+            <div class="card h-100 p-4">
+              <img src="card1.png" class="container card-img-top border border-danger rounded-circle" style="width: 40%;" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Technology</h4>
+                <hr class="border-danger opacity-100 w-50 imgrule pb-3">
+                <p class="card-text">We are well equipped with state-of-the-art technology with the capacity for fast ramp-up and roll out of new campaigns.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 p-4">
+              <img src="card2.png" class="container card-img-top border border-danger rounded-circle" style="width: 40%;" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Best Team</h4>
+                <hr class="border-danger opacity-100 w-50 imgrule pb-3">
+                <p class="card-text">We have the skilled and experienced professionals who are well equipped to provide exclusive customer services.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 p-4">
+              <img src="card3.png" class="container card-img-top border border-danger rounded-circle" style="width: 40%;" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Professionalism</h4>
+                <hr class="border-danger opacity-100 w-50 imgrule pb-3">
+                <p class="card-text">Our biggest strength lies in our strong & deep tradition of ‘Professionalism’ & `Respect for an Individual and Customers’.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 p-4">
+              <img src="card4.png" class="container card-img-top border border-danger rounded-circle" style="width: 40%;" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Best Training</h4>
+                <hr class="border-danger opacity-100 w-50 imgrule pb-3">
+                <p class="card-text">Each & every professional appointed by us undergoes rigorous and continuous in-house training by our principals.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+
+    <!-- Background image -->
+    <div class="bg-image bgimage mt-4">
+      <div class="mask gradient-custom"></div>
+      
+        <div class="d-flex flex-column h-100 p-3">
+          <h1 class="d-block" style="color: rgb(255, 255, 255) !important; margin-top: 2%;">Testimonials</h1>
+          <hr class="border border-danger border-2 opacity-75 w-7 d-block rule">
+
+        <div class="box mt-3">  
+          <div class="row text-dark">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body p-5">
+                  <p class="card-text text-center text-secondary fw-lighter">” We have been associated with the call center by subscribing to their outbound services . We are extremely satisfied with their service and support from their team. We wish them all the best for the future.”</p>
+                  <aside class="d-block mt-4 pt-4" style="width:28%; ">
+                    <i class="fa-solid fa-star text-warning p-1"></i><i class="fa-solid fa-star text-warning p-1"></i><i class="fa-solid fa-star text-warning p-1"></i><i class="fa-solid fa-star text-warning p-1"></i><i class="fa-solid fa-star text-warning p-1"></i>
+                    <h5 class="fw-bolder p-1" style="color: #253b52;">Manish Raut</h5>
+                    <p class="fw-lighter text-secondary">CEO</p>
+                  </aside>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body p-5">
+                  <p class="card-text text-center text-secondary fw-lighter">” Our Customers have been so happy with my brand’s customer service since  we teamed up with BPO centers, thank you so much ! “</p>
+                  <aside class="d-block mt-4 pt-4" style="width:28%; ">
+                    <i class="fa-solid fa-star text-warning p-1"></i><i class="fa-solid fa-star text-warning p-1"></i><i class="fa-solid fa-star text-warning p-1"></i><i class="fa-solid fa-star text-warning p-1"></i><i class="fa-solid fa-star text-warning p-1"></i>
+                    <h5 class="fw-bolder p-1" style="color: #253b52;">Ketan Zilpe</h5>
+                    <p class="fw-lighter text-secondary">Project Manager</p>
+                  </aside>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <br>
+    <!-- Background image -->
+
+    <!-- Footer -->
+    <div class="card text-bg-dark w-100">
+      <img src="Footer.jpg" class="card-img" alt="image">
+      <div class="card-img-overlay">
+        <div class="text-start">
+          <div class="row mt-5" style="font-family: Ubuntu;">
+            <div class="col">
+              <h6>ABOUT US</h6>
+              <hr class="opacity-100" style="width: 8%; border: 2px solid #e74020;">
+              <p class="fw-lighter">
+                <img decoding="async" style="display: block;" src="https://npenterprises.org/wp-content/uploads/2022/02/NP-Entrprises_FInal-Logo.png" alt="consulting theme">
+                <br>
+                We, NP Enterprises at Nagpur, Maharashtra, are one of the leading BPOs, offering ultimate solutions to our the customers.
+              </p>
+            </div>
+            <div class="col">
+              <h6>CONTACT US</h6>
+              <hr class="opacity-100" style="width: 8%; border: 2px solid #e74020;">
+              <div class="textwidget"><h6>Address :</h6>
+                <div style="margin: 0 0 9px 0; font-weight: lighter;">Khaperkheda , Nagpur – 441102</div>
+                <h6>Email :</h6>
+                <div style="margin: 0 0 9px 0; font-weight: lighter;">support@npenterprises.co</div>
+                <h6>Mobile No. :</h6>
+                <div style="margin: 0 0 9px 0; font-weight: lighter;">+91-7038216156<br>
+                +91-9765514819</div>
+                </div>
+            </div>
+            <div class="col">
+              <h6>NEWS</h6>
+              <hr class="opacity-100" style="width: 8%; border: 2px solid #e74020;">
+              <p class="fw-lighter">Don’t miss to subscribe to our news feeds, kindly fill the form below.</p>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="EMAIL ADDRESS" aria-label="EMAIL ADDRESS" aria-describedby="button-addon2">
+                <button class="btn" type="button btn-outline" id="button-addon2" style="background-color: #e74020;">JOIN</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer text-muted fw-lighter text-end" style="background-color: rgba(33,5,43,1) !important; color: rgb(244 238 238) !important; font-family: Ubuntu;">
+        © 2022 Copyright . Design & Developed by Softacore
+      </div>
+    </div>
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"
+  ></script>
+  </body>
+</html>

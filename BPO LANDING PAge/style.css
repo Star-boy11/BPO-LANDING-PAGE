@@ -1,0 +1,84 @@
+/* @import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'BhuTuka Expanded One', cursive; */
+}
+
+.listitem{
+    font-weight: bold;
+    font-size: medium;
+}
+
+.nav-item{
+    padding: 5px;
+}
+
+.nav-button{
+    background-color: orangered;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 3px;
+}
+
+
+.container1{
+    padding: 35px;
+}
+
+h3{
+    font-weight: bold;
+    text-align: center;
+    margin: 15px;
+}
+
+.rule{
+    width: 7%;
+    height: 4px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:red !important;
+}
+
+.listgroup {
+    width: 30%;
+    font-size: 1.6rem;
+    font-family: auto;
+    padding: 5px;
+}
+
+.lg1{
+    background-color: orange;
+    padding: 19px;
+}
+
+.lg1:hover{
+    background-color: brown;
+}
+
+.lg1>a:hover{
+    color: black;
+}
+
+h2{
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+.imgrule{
+    border-style: dashed !important; 
+    height: 0 !important;
+    box-sizing: content-box !important;
+    margin: 15px 25% 5px !important;
+}
+
+.bgimage{
+    background-image: url('testimonials.jpg');
+    height: 100vh;
+    background-size: 100%;
+    position: relative;
+}
